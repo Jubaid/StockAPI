@@ -1,2 +1,7 @@
 <h1>Stocking</h1>
 <p>Find me in </p>
+
+<% StockQuote::Stock.new(api_key: 'pk_3f176fa7966a46aa8d7ab1439e2247d9
+') %>
+<% stock = StockQuote::Stock.quote("fb") %>
+<%= stock %>
